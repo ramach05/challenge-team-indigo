@@ -4,3 +4,17 @@
 /* Page */
 
 @import url("../blocks/page/page.css");
+
+/* Header */
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo-link/header__logo-link.css");
+@import url("../blocks/header/__logo/header__logo.css");
+
+/* Social */
+
+@import url("../blocks/social/social.css");
+@import url("../blocks/social/__list/social__list.css");
+@import url("../blocks/social/__item/social__item.css");
+@import url("../blocks/social/__link/social__link.css");
+@import url("../blocks/social/__logo/social__logo.css");
