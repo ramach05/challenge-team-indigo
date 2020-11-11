@@ -1,0 +1,9 @@
+.gallery {
+    max-width: 944px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 224px);
+    gap: 16px;
+
+
+}
