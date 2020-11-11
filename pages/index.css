@@ -18,3 +18,19 @@
 @import url("../blocks/social/__item/social__item.css");
 @import url("../blocks/social/__link/social__link.css");
 @import url("../blocks/social/__logo/social__logo.css");
+
+/* Hero */
+
+@import url("../blocks/hero/hero.css");
+@import url("../blocks/hero/__img/hero__img.css");
+@import url("../blocks/hero/__paragraph/hero__paragraph.css");
+@import url("../blocks/hero/__subtitle/hero__subtitle.css");
+@import url("../blocks/hero/__title/hero__title.css");
+@import url("../blocks/hero/__wrapper/hero__wrapper.css");
+
+/* Button */
+
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_place/button_place_hero.css");
+@import url("../blocks/button/_place/button_place_portfolio.css");
+@import url("../blocks/button/_place/button_place_form.css");
