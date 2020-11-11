@@ -1,0 +1,27 @@
+.features {
+  max-width: 944px;
+  position: relative;
+}
+
+.features::before {
+content: '';
+background-color: red;
+background-size: 100%;
+display: block;
+/* position: relative; */
+/* height: 100%; */
+/* width: 100vw; */
+/* position: absolute; */
+/* top: 0; */
+/* left: 0; */
+/* right: 0; */
+/* bottom: 0; */
+/* width: 100vw; */
+/* height: 100%; */
+/* z-index: -1; */
+}
+
+@media screen and (max-width: 767px) {
+  .features {
+    margin: 0 27px 0;
+}

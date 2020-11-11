@@ -1,10 +1,17 @@
 .page {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1B2944;
-    margin: 0 auto;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b2944;
+  margin: 0 auto;
+
+  /* position: relative;
+  z-index: -99; */
+}
+
+* {
+  border: 1px red solid;
 }

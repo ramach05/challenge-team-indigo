@@ -4,3 +4,14 @@
 /* Page */
 
 @import url("../blocks/page/page.css");
+
+/* Features */
+
+@import url("../blocks/features/features.css");
+@import url("../blocks/features/__title/features__title.css");
+
+@import url("../blocks/grid-features/grid-features.css");
+@import url("../blocks/grid-features/__item/grid-features__item.css");
+@import url("../blocks/grid-features/__item/_img/grid-features__item_img.css");
+@import url("../blocks/grid-features/__item/title/grid-features__item_title.css");
+@import url("../blocks/grid-features/__item/_subtitle/grid-features__item_subtitle.css");
