@@ -1,0 +1,7 @@
+.portfolio__image {
+    max-width: 304px;
+    border-radius: 6px;
+    overflow-x: hidden;
+    min-height: 304px;
+    object-fit: cover;
+}
