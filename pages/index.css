@@ -4,3 +4,46 @@
 /* Page */
 
 @import url("../blocks/page/page.css");
+
+/* Header */
+
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo-link/header__logo-link.css");
+@import url("../blocks/header/__logo/header__logo.css");
+
+/* Social */
+
+@import url("../blocks/social/social.css");
+@import url("../blocks/social/__list/social__list.css");
+@import url("../blocks/social/__item/social__item.css");
+@import url("../blocks/social/__link/social__link.css");
+@import url("../blocks/social/__logo/social__logo.css");
+
+/* Hero */
+
+@import url("../blocks/hero/hero.css");
+@import url("../blocks/hero/__img/hero__img.css");
+@import url("../blocks/hero/__paragraph/hero__paragraph.css");
+@import url("../blocks/hero/__subtitle/hero__subtitle.css");
+@import url("../blocks/hero/__title/hero__title.css");
+@import url("../blocks/hero/__wrapper/hero__wrapper.css");
+
+/* Button */
+
+@import url("../blocks/button/button.css");
+@import url("../blocks/button/_place/button_place_hero.css");
+@import url("../blocks/button/_place/button_place_portfolio.css");
+@import url("../blocks/button/_place/button_place_form.css");
+
+/* Heading */
+
+@import url("../blocks/section-title/section-title.css");
+
+/* Portfolio */
+
+@import url("../blocks/portfolio/portfolio.css");
+@import url("../blocks/portfolio/__list/portfolio__list.css");
+@import url("../blocks/portfolio/__item/portfolio__item.css");
+@import url("../blocks/portfolio/__wrapper/portfolio__wrapper.css");
+@import url("../blocks/portfolio/__image/portfolio__image.css");
+@import url("../blocks/portfolio/__title/portfolio__title.css");

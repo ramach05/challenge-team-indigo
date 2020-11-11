@@ -1,0 +1,13 @@
+.portfolio__item {
+    position: relative;
+}
+
+.portfolio__item::after {
+    content: '';
+    background: linear-gradient(179.83deg, rgba(255, 255, 255, 0) 51%, rgba(255, 255, 255, .3) 80.34%, rgba(33, 62, 96, 1) 99%);
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 100%;
+}
