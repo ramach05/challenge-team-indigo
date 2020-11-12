@@ -1,0 +1,9 @@
+.form__input_type_name {
+    margin-top: 35px;
+    background-image: url(./user-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 24px center;
+    text-indent: 27px;
+    color: #949494;
+    font-size: 0.875rem;
+}

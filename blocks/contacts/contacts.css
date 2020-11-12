@@ -1,0 +1,9 @@
+.contacts {
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(50px, 108px)) 24px auto;
+    ;
+    gap: 0;
+    grid-template-areas: "phone mail" "social-link social-link" "social-icon social-icon" "policy policy";
+}

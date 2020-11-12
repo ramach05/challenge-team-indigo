@@ -1,0 +1,22 @@
+.contacts__item {}
+
+.contacts__item:nth-child(1) {
+    grid-area: phone;
+}
+
+.contacts__item:nth-child(2) {
+    grid-area: mail;
+    padding-left: 48px;
+}
+
+.contacts__item:nth-child(3) {
+    grid-area: social-link;
+}
+
+.contacts__item:nth-child(4) {
+    grid-area: social-icon;
+}
+
+.contacts__item:nth-child(5) {
+    grid-area: policy;
+}
