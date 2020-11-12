@@ -7,3 +7,11 @@
     box-shadow: -5px 5px 0px #FFC41D;
     padding: 47px 39px 61px;
 }
+
+@media screen and (max-width: 420px) {
+    .form {
+        padding: 39px 21px 48px;
+        margin-left: 4px;
+        box-shadow: -4px 2px 0px #FFC41D;
+    }
+}

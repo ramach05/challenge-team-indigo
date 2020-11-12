@@ -5,4 +5,11 @@
     color: #fff;
     margin: 0;
     padding: 64px 0 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 420px) {
+    .section-title {
+        font-size: 1.1875rem;
+    }
 }

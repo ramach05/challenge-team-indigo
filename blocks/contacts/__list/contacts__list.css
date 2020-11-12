@@ -7,3 +7,9 @@
     justify-content: space-between;
     max-width: 374px;
 }
+
+@media screen and (max-width: 790px) {
+    .contacts__list {
+        flex-direction: column;
+    }
+}

@@ -4,5 +4,18 @@
     color: #fff;
     padding-top: 20px;
     font-style: normal;
-    display: block;
+    display: inline-block;
+    text-decoration: none;
+    transition: filter .2s;
+}
+
+@media screen and (max-width: 420px) {
+    .contacts__link {
+        font-size: 0.875rem;
+        padding-top: 4px;
+    }
+}
+
+.contacts__link:hover {
+    filter: drop-shadow(0 0 3px #fff);
 }

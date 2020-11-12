@@ -6,3 +6,13 @@
     margin: 0;
     padding-bottom: 40px;
 }
+
+@media screen and (max-width: 420px) {
+    .hero__paragraph {
+        font-size: 0.875rem;
+        line-height: 145%;
+        max-width: 264px;
+        margin: 0 auto;
+        padding-bottom: 58px;
+    }
+}

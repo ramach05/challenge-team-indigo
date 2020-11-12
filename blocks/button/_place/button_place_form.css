@@ -3,5 +3,13 @@
     min-height: 66px;
     width: 100%;
     text-transform: uppercase;
-    margin-top: 28px
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 420px) {
+    .button_place_form {
+        margin-top: 35px;
+        min-height: 54px;
+        font-size: 0.625rem;
+    }
 }

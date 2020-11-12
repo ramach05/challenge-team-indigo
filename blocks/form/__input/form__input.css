@@ -8,3 +8,9 @@
     background-color: #F8F8F8;
     border-radius: 5px;
 }
+
+@media screen and (max-width: 420px) {
+    .form__input {
+        padding: 25px;
+    }
+}
