@@ -1,0 +1,15 @@
+.grid-features {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 63px 15px;
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-features {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 59px;
+  }
+}

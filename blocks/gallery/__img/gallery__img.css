@@ -1,0 +1,22 @@
+.gallery__img {
+  width: 100%;
+  max-width: 224px;
+  height: 224px;
+  /* height: 100%; */
+  /* display: block; */
+  /* position: relative; */
+  object-fit: cover;
+}
+
+/* .gallery__img::before {
+  content: "";
+  display: block;
+  margin-bottom: 100%;
+} */
+
+@media screen and (max-width: 767px) {
+  .gallery__img {
+    max-width: 126px;
+    height: 126px;
+  }
+}

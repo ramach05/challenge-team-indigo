@@ -47,3 +47,20 @@
 @import url("../blocks/portfolio/__wrapper/portfolio__wrapper.css");
 @import url("../blocks/portfolio/__image/portfolio__image.css");
 @import url("../blocks/portfolio/__title/portfolio__title.css");
+
+/* Features */
+
+@import url("../blocks/features/features.css");
+@import url("../blocks/features-block/features-block.css");
+@import url("../blocks/features/__title/features__title.css");
+@import url("../blocks/grid-features/grid-features.css");
+@import url("../blocks/grid-features/__item/grid-features__item.css");
+@import url("../blocks/grid-features/__item/_img/grid-features__item_img.css");
+@import url("../blocks/grid-features/__item/title/grid-features__item_title.css");
+@import url("../blocks/grid-features/__item/_subtitle/grid-features__item_subtitle.css");
+
+/* Gallery */
+
+@import url("../blocks/gallery/gallery.css");
+@import url("../blocks/gallery-block/gallery-block.css");
+@import url("../blocks/gallery/__img/gallery__img.css");

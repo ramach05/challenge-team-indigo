@@ -1,99 +1,190 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Петр Федоров</title>
-    <link rel="stylesheet" href="./pages/index.css">
-</head>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
 
-<body class='page'>
+  <body class="page">
     <!-- BLOCK HEADER -->
     <header class="header">
-        <a href="#" class="header__logo-link"><img src="./blocks/header/__logo/logo.svg" alt="Логотип страницы" class=header__logo></a>
-        <address class="social">
-            <ul class="social__list">
-                <li class="social__item">
-                    <a href="#" class="social__link">
-                        <img src="./blocks/social/__logo/github.svg" alt="Логотип Github" class="social__logo">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link">
-                        <img src="./blocks/social/__logo/twitter.svg" alt="Логотип Twitter" class="social__logo">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link">
-                        <img src="./blocks/social/__logo/instagram.svg" alt="Логотип Instagram" class="social__logo">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link">
-                        <img src="./blocks/social/__logo/facebook.svg" alt="Логотип Facebook" class="social__logo">
-                    </a>
-                </li>
-          </ul>
-        </address>
+      <a href="#" class="header__logo-link"
+        ><img
+          src="./blocks/header/__logo/logo.svg"
+          alt="Логотип страницы"
+          class="header__logo"
+      /></a>
+      <address class="social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img
+                src="./blocks/social/__logo/github.svg"
+                alt="Логотип Github"
+                class="social__logo"
+              />
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img
+                src="./blocks/social/__logo/twitter.svg"
+                alt="Логотип Twitter"
+                class="social__logo"
+              />
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img
+                src="./blocks/social/__logo/instagram.svg"
+                alt="Логотип Instagram"
+                class="social__logo"
+              />
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="#" class="social__link">
+              <img
+                src="./blocks/social/__logo/facebook.svg"
+                alt="Логотип Facebook"
+                class="social__logo"
+              />
+            </a>
+          </li>
+        </ul>
+      </address>
     </header>
 
     <!-- BLOCK HERO -->
     <section class="hero">
-        <div class="hero__wrapper">
-            <p class="hero__subtitle">Фрилансер</p>
-            <h1 class="hero__title">Петр Федоров</h1>
-            <p class="hero__paragraph">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-            <button class="button button_place_hero">Бесплатная консультация</button>
-        </div>
-        <img src="./blocks/hero/__img/hero-avatar.png" alt="Фото героя" class="hero__img">
+      <div class="hero__wrapper">
+        <p class="hero__subtitle">Фрилансер</p>
+        <h1 class="hero__title">Петр Федоров</h1>
+        <p class="hero__paragraph">
+          Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+          заказать дизайн и верстку небольшого сайта или интернет-магазина
+        </p>
+        <button class="button button_place_hero">
+          Бесплатная консультация
+        </button>
+      </div>
+      <img
+        src="./blocks/hero/__img/hero-avatar.png"
+        alt="Фото героя"
+        class="hero__img"
+      />
     </section>
+    <header class="header"></header>
+
+    <!-- BLOCK HERO -->
+    <section class="hero"></section>
 
     <!-- BLOCK FEATURES -->
     <section class="features">
-
+      <div class="features-block">
+        <h2 class="features__title">Со мной удобно работать</h2>
+        <div class="grid-features">
+          <div class="grid-features__item">
+            <img
+              src="./image/svg/offer-img.svg"
+              alt=""
+              class="grid-features__item_img"
+            />
+            <h4 class="grid-features__item_title">По договору</h4>
+            <p class="grid-features__item_subtitle">
+              Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+              Работаю как ИП без НДС.
+            </p>
+          </div>
+          <div class="grid-features__item">
+            <img
+              src="./image/svg/deadline-img.svg"
+              alt=""
+              class="grid-features__item_img"
+            />
+            <h4 class="grid-features__item_title">Точно в срок</h4>
+            <p class="grid-features__item_subtitle">
+              В договоре прописана моя ответственность за срок проекта. Если
+              просрочу — плачу неустойку.
+            </p>
+          </div>
+          <div class="grid-features__item">
+            <img
+              src="./image/svg/agreement-img.svg"
+              alt=""
+              class="grid-features__item_img"
+            />
+            <h4 class="grid-features__item_title">Ценник под вас</h4>
+            <p class="grid-features__item_subtitle">
+              Если у вас нетиповой проект, сделаю рассчет цены за работу и
+              объясню, как складывается цена.
+            </p>
+          </div>
+          <div class="grid-features__item">
+            <img
+              src="./image/svg/steps-img.svg"
+              alt=""
+              class="grid-features__item_img"
+            />
+            <h4 class="grid-features__item_title">Премежуточные итоги</h4>
+            <p class="grid-features__item_subtitle">
+              Показываю работу поэтапно, а не в последий момент перед крайним
+              сроком.
+            </p>
+          </div>
+          <div class="grid-features__item">
+            <img
+              src="./image/svg/storage-img.svg"
+              alt=""
+              class="grid-features__item_img"
+            />
+            <h4 class="grid-features__item_title">Хостинг и домен</h4>
+            <p class="grid-features__item_subtitle">
+              Если мы договорились о цене проекта, в неё входит всё: домен и
+              хостинг на год + SSL сертификат.
+            </p>
+          </div>
+          <div class="grid-features__item">
+            <img
+              src="./image/svg/conversation-img.svg"
+              alt=""
+              class="grid-features__item_img"
+            />
+            <h4 class="grid-features__item_title">Не брошу после сдачи</h4>
+            <p class="grid-features__item_subtitle">
+              Научу вас или вашего сотрудника пользоваться сайтом, запишу
+              видео-инструкции.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- BLOCK PORTFOLIO -->
-    <section class="portfolio">
-        <h2 class="section-title">Выполненные проекты</h2>
-        <div class="portfolio__list">
-            <div class="portfolio__item">
-                <img src="./blocks/portfolio/__image/portfolio1.png" alt="Превью первой работы" class="portfolio__image">
-                <div class="portfolio__wrapper">
-                    <p class="portfolio__title">The curious corner of chamarel</p>
-                    <button class="button button_place_portfolio">Посмотреть</button>
-                </div>
-
-            </div>
-            <div class="portfolio__item">
-                <img src="./blocks/portfolio/__image/portfolio2.png" alt="Превью второй работы" class="portfolio__image">
-                <div class="portfolio__wrapper">
-                    <p class="portfolio__title">Gymkhana club golf course</p>
-                    <button class="button button_place_portfolio">Посмотреть</button>
-                </div>
-
-            </div>
-            <div class="portfolio__item">
-                <img src="./blocks/portfolio/__image/portfolio3.png" alt="Превью третий работы" class="portfolio__image">
-                <div class="portfolio__wrapper">
-                    <p class="portfolio__title">Tamarind falls hiking trip - full day</p>
-                    <button class="button button_place_portfolio">Посмотреть</button>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    <section class="portfolio"></section>
 
     <!-- BLOCK GALLERY -->
     <section class="gallery">
-
+      <div class="gallery-block">
+        <img src="./image/gallery01.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery02.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery03.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery04.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery05.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery06.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery07.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery08.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery09.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery10.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery11.jpg" alt="" class="gallery__img" />
+        <img src="./image/gallery12.jpg" alt="" class="gallery__img" />
+      </div>
     </section>
 
     <!-- BLOCK FOOTER -->
-    <footer class="footer">
-
-    </footer>
-</body>
-
+    <footer class="footer"></footer>
+  </body>
 </html>
