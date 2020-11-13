@@ -1,0 +1,27 @@
+.footer__wrapper {
+    display: grid;
+    grid-template-columns: minmax(267px, 458px) minmax(267px, 384px);
+    column-gap: 96px;
+    padding: 88px 0 0 6px;
+}
+
+@media screen and (max-width: 1000px) {
+    .footer__wrapper {
+        column-gap: 28px
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .footer__wrapper {
+        column-gap: 28px;
+        grid-template-columns: minmax(267px, 458px) minmax(155px, 384px);
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .footer__wrapper {
+        column-gap: 28px;
+        grid-template-columns: 1fr;
+        padding: 50px 0 0 0;
+    }
+}

@@ -1,0 +1,24 @@
+.contacts {
+    font-style: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, minmax(50px, 108px)) auto auto;
+    gap: 0;
+    grid-template-areas: "phone mail" "social-link social-link" "social-icon social-icon" "policy policy";
+}
+
+@media screen and (max-width: 790px) {
+    .contacts {
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        gap: 35px;
+        grid-template-areas: "phone" "mail" "social-link" "social-icon" "policy";
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .contacts {
+        padding-top: 50px;
+        gap: 26px;
+    }
+}

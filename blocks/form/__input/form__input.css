@@ -1,0 +1,16 @@
+.form__input {
+    display: block;
+    max-width: 380px;
+    width: 100%;
+    padding: 29px 25px;
+    border: 0;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 420px) {
+    .form__input {
+        padding: 25px;
+    }
+}
