@@ -9,15 +9,15 @@
     width: 90%;
 }
 
-@media screen and (max-width: 420px) {
-    .section-title {
-        font-size: 1.1875rem;
-        padding: 61px 0 0;
-    }
-}
-
 @media screen and (max-width: 1000px) {
     .section-title {
         padding: 64px 0 0;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .section-title {
+        font-size: 1.1875rem;
+        padding: 57px 0 0;
     }
 }
