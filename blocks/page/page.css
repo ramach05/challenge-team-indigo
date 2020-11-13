@@ -1,32 +1,38 @@
 .page {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #1b2944;
-  margin: 0 auto;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b2944;
+    margin: 0 auto;
 }
+
 
 /* полоса прокрутки (скроллбар) */
+
 ::-webkit-scrollbar {
-  width: 4px; /* ширина для вертикального скролла */
-  height: 4px; /* высота для горизонтального скролла */
-  background-color: #cecece;
+    width: 4px;
+    /* ширина для вертикального скролла */
+    height: 4px;
+    /* высота для горизонтального скролла */
+    background-color: #cecece;
 }
 
+
 /* ползунок скроллбара */
+
 ::-webkit-scrollbar-thumb {
-  background-color: #ffbb01;
-  border-radius: 6px;
-  -webkit-transition: background-color 1s;
-  -moz-transition: background-color 1s;
-  -o-transition: background-color 1s;
-  -ms-transition: background-color 1s;
-  transition: background-color 1s;
+    background-color: #ffbb01;
+    border-radius: 6px;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    transition: background-color 1s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #1b2944;
+    background-color: #1b2944;
 }
