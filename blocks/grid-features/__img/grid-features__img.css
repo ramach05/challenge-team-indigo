@@ -1,9 +1,9 @@
 .grid-features__img {
-  margin-bottom: 22px;
+    margin-bottom: 18px;
 }
 
 @media screen and (max-width: 767px) {
-  .grid-features__img:nth-of-type(4) {
-    margin-top: 50px;
-  }
+    .grid-features__img:nth-of-type(4) {
+        margin-top: 50px;
+    }
 }
