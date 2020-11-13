@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1000px) {
     .hero {
-        padding: 109px 40px 71px;
+        padding: 109px auto 71px;
     }
 }
 
@@ -18,7 +18,7 @@
     .hero {
         flex-direction: column;
         align-items: center;
-        padding: 109px 40px 71px;
+        padding: 109px auto 71px;
         margin: 0 auto;
     }
 }

@@ -3,14 +3,14 @@
     display: flex;
     padding: 41px 0 0;
     max-width: 944px;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
     margin: 0 auto;
 }
 
 @media screen and (max-width: 1000px) {
     .header {
-        padding: 41px 40px 0;
+        padding: 41px 0 0;
     }
 }
 

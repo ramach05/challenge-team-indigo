@@ -3,20 +3,21 @@
     line-height: 2.625rem;
     font-weight: bold;
     color: #fff;
-    margin: 0 auto;
+    margin: 0 0;
     padding: 64px 0 0;
     text-align: left;
+    width: 90%;
 }
 
 @media screen and (max-width: 420px) {
     .section-title {
         font-size: 1.1875rem;
-        padding: 61px 40px 0;
+        padding: 61px 0 0;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .section-title {
-        padding: 64px 40px 0;
+        padding: 64px 0 0;
     }
 }
