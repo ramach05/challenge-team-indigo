@@ -1,0 +1,18 @@
+.contacts__policy-link {
+    color: #949494;
+    font-size: 0.9375rem;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: color .2s
+}
+
+@media screen and (max-width: 420px) {
+    .contacts__policy-link {
+        bottom: -12px;
+    }
+}
+
+.contacts__policy-link:hover {
+    color: #fff;
+}
