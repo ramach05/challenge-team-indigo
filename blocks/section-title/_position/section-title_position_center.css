@@ -1,0 +1,5 @@
+@media screen and (max-width: 420px) {
+    .section-title_position_center {
+        text-align: center;
+    }
+}

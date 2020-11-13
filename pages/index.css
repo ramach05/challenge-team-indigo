@@ -38,6 +38,7 @@
 /* Heading */
 
 @import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-title/_position/section-title_position_center.css");
 
 /* Portfolio */
 
@@ -47,6 +48,32 @@
 @import url("../blocks/portfolio/__wrapper/portfolio__wrapper.css");
 @import url("../blocks/portfolio/__image/portfolio__image.css");
 @import url("../blocks/portfolio/__title/portfolio__title.css");
+
+/* Form */
+
+@import url("../blocks/form/form.css");
+@import url("../blocks/form/__input/form__input.css");
+@import url("../blocks/form/__input/_type/form__input_type_name.css");
+@import url("../blocks/form/__input/_type/form__input_type_tel.css");
+@import url("../blocks/form/__title/form__title.css");
+@import url("../blocks/form/__title/_type/form__input_type_collapsed.css");
+@import url("../blocks/form/__title/_type/form__input_type_full.css");
+
+/* Contacts */
+
+@import url("../blocks/contacts/contacts.css");
+@import url("../blocks/contacts/__head/contacts__head.css");
+@import url("../blocks/contacts/__item/contacts__item.css");
+@import url("../blocks/contacts/__link/contacts__link.css");
+@import url("../blocks/contacts/__list/contacts__list.css");
+@import url("../blocks/contacts/__list-item/contacts__list-item.css");
+@import url("../blocks/contacts/__policy/contacts__policy.css");
+@import url("../blocks/contacts/__policy-link/contacts__policy-link.css");
+
+/* Footer */
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__wrapper/footer__wrapper.css");
 
 /* Features */
 
