@@ -11,9 +11,9 @@
   align-items: center;
   background-color: #1b2944;
   margin: 0 auto;
-
   /* position: relative;
   z-index: -99; */
+  /* overflow-x: hidden; */
 }
 
 ::-webkit-scrollbar {
@@ -40,3 +40,4 @@
 ::-webkit-resizer {
   background-color: #cecece;
 }
+

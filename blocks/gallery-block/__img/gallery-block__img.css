@@ -1,8 +1,8 @@
 .gallery-block__img {
   width: 100%;
   /* max-width: 224px; */
-  height: 224px;
-  /* height: 100%; */
+  /* height: 224px; */
+  height: 100%;
   /* display: block; */
   /* position: relative; */
   object-fit: cover;
