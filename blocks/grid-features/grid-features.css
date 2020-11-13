@@ -11,7 +11,7 @@
 @media screen and (max-width: 767px) {
     .grid-features {
         grid-template-columns: 1fr;
-        gap: 35px;
+        gap: 34px;
         margin-bottom: 65px;
     }
     .grid-features li:nth-child(4) {
