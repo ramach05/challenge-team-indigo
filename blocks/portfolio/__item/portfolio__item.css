@@ -11,10 +11,15 @@
     bottom: 0;
     width: 100%;
     height: 100%;
+    transition: filter .2s;
 }
 
 @media screen and (max-width: 420px) {
     .portfolio__item {
         max-height: 266px;
     }
+}
+
+.portfolio__item:hover::after {
+    filter: brightness(0.8);
 }
