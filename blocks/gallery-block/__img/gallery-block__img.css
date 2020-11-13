@@ -1,19 +1,9 @@
 .gallery-block__img {
   width: 100%;
-  /* max-width: 224px; */
-  /* height: 224px; */
   height: 100%;
-  /* display: block; */
-  /* position: relative; */
   object-fit: cover;
   display: block;
 }
-
-/* .gallery-block__img::before {
-  content: "";
-  display: block;
-  margin-bottom: 100%;
-} */
 
 @media screen and (max-width: 767px) {
   .gallery-block__img {
