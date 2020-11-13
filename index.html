@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Петр Федоров</title>
     <link rel="stylesheet" href="./pages/index.css" />
-  </head>
+</head>
 
-  <body class="page">
+<body class="page">
     <!-- BLOCK HEADER -->
-    <!-- <header class="header">
-      <a href="#" class="header__logo-link"
-        ><img
-          src="./blocks/header/__logo/logo.svg"
-          alt="Логотип страницы"
-          class="header__logo"
-      /></a>
-      <address class="social">
+    <header class="header">
+        <a href="#" class="header__logo-link"><img src="./blocks/header/__logo/logo.svg" alt="Логотип страницы" class="header__logo" /></a>
+        <address class="social">
         <ul class="social__list">
           <li class="social__item">
-            <a href="#" class="social__link">
+            <a href="#" target="_blank" class="social__link">
               <img
                 src="./blocks/social/__logo/github.svg"
                 alt="Логотип Github"
@@ -28,7 +24,7 @@
             </a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link">
+            <a href="#" target="_blank" class="social__link">
               <img
                 src="./blocks/social/__logo/twitter.svg"
                 alt="Логотип Twitter"
@@ -37,7 +33,7 @@
             </a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link">
+            <a href="#" target="_blank" class="social__link">
               <img
                 src="./blocks/social/__logo/instagram.svg"
                 alt="Логотип Instagram"
@@ -46,7 +42,7 @@
             </a>
           </li>
           <li class="social__item">
-            <a href="#" class="social__link">
+            <a href="#" target="_blank" class="social__link">
               <img
                 src="./blocks/social/__logo/facebook.svg"
                 alt="Логотип Facebook"
@@ -56,20 +52,18 @@
           </li>
         </ul>
       </address>
-    </header> -->
+    </header>
 
     <!-- BLOCK HERO -->
-    <!-- <section class="hero">
-      <div class="hero__wrapper">
-        <p class="hero__subtitle">Фрилансер</p>
-        <h1 class="hero__title">Петр Федоров</h1>
-        <p class="hero__paragraph">
-          Разрабатываю сайты для малого и среднего бизнеса. У меня можно
-          заказать дизайн и верстку небольшого сайта или интернет-магазина
-        </p>
-        <button class="button button_place_hero">
-          Бесплатная консультация
-        </button>
+    <section class="hero">
+        <div class="hero__wrapper">
+            <p class="hero__subtitle">Фрилансер</p>
+            <h1 class="hero__title">Петр Федоров</h1>
+            <p class="hero__paragraph">
+                Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина
+            </p>
+            <a href="#form" class="button button_place_hero">Бесплатная консультация</a
+        >
       </div>
       <img
         src="./blocks/hero/__img/hero-avatar.png"
@@ -77,17 +71,13 @@
         class="hero__img"
       />
     </section>
-    <header class="header"></header> -->
-
-    <!-- BLOCK HERO -->
-    <!-- <section class="hero"></section> -->
 
     <!-- BLOCK FEATURES -->
     <section class="features">
       <div class="features-block">
         <h2 class="features__title">Со мной удобно работать</h2>
-        <div class="grid-features">
-          <div class="grid-features__item">
+        <ul class="grid-features">
+          <li>
             <img
               src="./image/svg/offer-img.svg"
               alt=""
@@ -98,8 +88,8 @@
               Предоставлю все документы для бухгалтерии: договоры, счета и акты.
               Работаю как ИП без НДС.
             </p>
-          </div>
-          <div class="grid-features__item">
+          </li>
+          <li>
             <img
               src="./image/svg/deadline-img.svg"
               alt=""
@@ -110,8 +100,8 @@
               В договоре прописана моя ответственность за срок проекта. Если
               просрочу — плачу неустойку.
             </p>
-          </div>
-          <div class="grid-features__item">
+          </li>
+          <li>
             <img
               src="./image/svg/agreement-img.svg"
               alt=""
@@ -122,8 +112,8 @@
               Если у вас нетиповой проект, сделаю рассчет цены за работу и
               объясню, как складывается цена.
             </p>
-          </div>
-          <div class="grid-features__item">
+          </li>
+          <li>
             <img
               src="./image/svg/steps-img.svg"
               alt=""
@@ -131,11 +121,11 @@
             />
             <h4 class="grid-features__title">Премежуточные итоги</h4>
             <p class="grid-features__subtitle">
-              Показываю работу поэтапно, а не в последий момент перед
+              Показываю работу поэтапно, а не	в&#160;последий момент перед
               крайним&#160;сроком.
             </p>
-          </div>
-          <div class="grid-features__item">
+          </li>
+          <li>
             <img
               src="./image/svg/storage-img.svg"
               alt=""
@@ -146,8 +136,8 @@
               Если мы договорились о цене проекта, в неё входит всё: домен и
               хостинг на год + SSL сертификат.
             </p>
-          </div>
-          <div class="grid-features__item">
+          </li>
+          <li>
             <img
               src="./image/svg/conversation-img.svg"
               alt=""
@@ -158,13 +148,52 @@
               Научу вас или вашего сотрудника пользоваться сайтом, запишу
               видео&#8209;инструкции.
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
 
     <!-- BLOCK PORTFOLIO -->
-    <section class="portfolio"></section>
+    <section class="portfolio">
+      <h2 class="section-title">Выполненные проекты</h2>
+      <div class="portfolio__list">
+        <div class="portfolio__item">
+          <img
+            src="./blocks/portfolio/__image/portfolio1.png"
+            alt="Превью первой работы"
+            class="portfolio__image"
+          />
+          <div class="portfolio__wrapper">
+            <p class="portfolio__title">The curious corner of chamarel</p>
+            <button class="button button_place_portfolio">Посмотреть</button>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img
+            src="./blocks/portfolio/__image/portfolio2.png"
+            alt="Превью второй работы"
+            class="portfolio__image"
+          />
+          <div class="portfolio__wrapper">
+            <p class="portfolio__title">Gymkhana club golf course</p>
+            <button class="button button_place_portfolio">Посмотреть</button>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img
+            src="./blocks/portfolio/__image/portfolio3.png"
+            alt="Превью третий работы"
+            class="portfolio__image"
+          />
+          <div class="portfolio__wrapper">
+            <p class="portfolio__title">
+              Tamarind falls hiking trip - full day
+            </p>
+            <button class="button button_place_portfolio">Посмотреть</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- BLOCK GALLERY -->
     <section class="gallery" aria-label="галерея фото">
@@ -255,6 +284,91 @@
     </section>
 
     <!-- BLOCK FOOTER -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <h2 class="section-title section-title_position_center">
+        Свяжитесь со мной
+      </h2>
+      <div class="footer__wrapper">
+        <form action="#" class="form" id="form">
+          <h3 class="form__title form__title_type_full">
+            Можете просто оставить заявку, я позвоню вам сегодня
+          </h3>
+          <h3 class="form__title form__title_type_collapsed">
+            Можете оставить заявку, я позвоню вам сегодня
+          </h3>
+          <input
+            placeholder="Ваше имя"
+            type="tel"
+            class="form__input form__input_type_name"
+          />
+          <input
+            placeholder="Ваш телефон"
+            type="text"
+            class="form__input form__input_type_tel"
+          />
+          <input
+            class="button button_place_form"
+            type="submit"
+            value="Бесплатная консультация"
+          />
+        </form>
+        <address class="contacts">
+          <div class="contacts__item">
+            <p class="contacts__head">Телефон</p>
+            <a href="tel:+7-999-123-45-67" class="contacts__link"
+              >+7 999 123 45 67</a
+            >
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__head">Почта</p>
+            <a href="mailto:ivanov@mail.ru" class="contacts__link"
+              >ivanov@mail.ru</a
+            >
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__head">Соцсети</p>
+            <ul class="contacts__list">
+              <li class="contacts__list-tiem">
+                <a href="t.me/ivanov" target="_blank" class="contacts__link">t.me/ivanov</a>
+            </li>
+            <li class="contacts__list-tiem">
+                <a href="vk.me/ivanov" target="_blank" class="contacts__link">vk.me/ivanov</a>
+            </li>
+            <li class="contacts__list-tiem">
+                <a href="fb.me/ivanov" target="_blank" class="contacts__link">fb.me/ivanov</a>
+            </li>
+            </ul>
+        </div>
+        <div class="contacts__item social">
+            <ul class="social__list">
+                <li class="social__item">
+                    <a href="#" target="_blank" class="social__link">
+                        <img src="./blocks/social/__logo/github.svg" alt="Логотип Github" class="social__logo" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" target="_blank" class="social__link">
+                        <img src="./blocks/social/__logo/twitter.svg" alt="Логотип Twitter" class="social__logo" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" target="_blank" class="social__link">
+                        <img src="./blocks/social/__logo/instagram.svg" alt="Логотип Instagram" class="social__logo" />
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a href="#" target="_blank" class="social__link">
+                        <img src="./blocks/social/__logo/facebook.svg" alt="Логотип Facebook" class="social__logo" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="contacts__policy">
+            <a class="contacts__policy-link" href="#">Политика&nbsp;конфиденциальности</a
+            >
+          </div>
+        </address>
+      </div>
+    </footer>
   </body>
 </html>

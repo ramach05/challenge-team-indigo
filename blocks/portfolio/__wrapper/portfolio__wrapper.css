@@ -7,3 +7,9 @@
     z-index: 6;
     padding: 0 0 32px 30px;
 }
+
+@media screen and (max-width: 420px) {
+    .portfolio__wrapper {
+        padding: 0 0 25px 24px;
+    }
+}

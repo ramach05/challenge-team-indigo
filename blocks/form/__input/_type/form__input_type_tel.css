@@ -1,0 +1,16 @@
+.form__input_type_tel {
+    margin-top: 16px;
+    background-image: url(./phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 24px center;
+    text-indent: 26px;
+    color: #949494;
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 420px) {
+    .form__input_type_tel {
+        background-position: 22px center;
+        margin-top: 16px;
+    }
+}

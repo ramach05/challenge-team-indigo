@@ -1,7 +1,3 @@
-* {
-  border: 1px red solid;
-}
-
 .page {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
@@ -11,33 +7,47 @@
   align-items: center;
   background-color: #1b2944;
   margin: 0 auto;
-  /* position: relative;
-  z-index: -99; */
-  /* overflow-x: hidden; */
 }
 
-/* ::-webkit-scrollbar {
-  width: 3px;
-  height: 4px;
-}
-::-webkit-scrollbar-button {
-  background-color: #cecece;
-}
-::-webkit-scrollbar-track {
-  background-color: #cecece;
-}
-::-webkit-scrollbar-track-piece {
-  background-color: #cecece;
-}
-::-webkit-scrollbar-thumb {
-  height: 50px;
-  background-color: #ffbb01;
+/* полоса прокрутки (скроллбар) */
+
+::-webkit-scrollbar {
   border-radius: 6px;
-}
-::-webkit-scrollbar-corner {
+  width: 4px;
+  /* ширина для вертикального скролла */
+  height: 4px;
+  /* высота для горизонтального скролла */
   background-color: #cecece;
 }
-::-webkit-resizer {
-  background-color: #cecece;
-} */
 
+/* ползунок скроллбара */
+
+/* ::-webkit-scrollbar-thumb {
+  background-color: #ffbb01;
+  border-radius: 6px; */
+
+  /* -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  -ms-transition: background-color 1s;
+  transition: background-color 1s; */
+/* } */
+
+.page::-webkit-scrollbar {
+  width: 14px;
+}
+.page::-webkit-scrollbar-thumb {
+  background-clip: content-box;
+  border: 4px solid transparent;
+  border-radius: 7px;
+  box-shadow: inset 0 0 0 10px;
+}
+.page {
+  overflow: auto;
+  color: #ce1c3e;
+  transition: color 0.3s;
+}
+
+.page:hover {
+  color: #ffbb01;
+}

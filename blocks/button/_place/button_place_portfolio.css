@@ -6,3 +6,16 @@
     box-shadow: 0px 2px 0px #CE1C3E;
     color: #fff;
 }
+
+@media screen and (max-width: 420px) {
+    .button_place_portfolio {
+        max-width: 112px;
+        min-height: 31px;
+        box-shadow: 0px 3px 0px #CE1C3E;
+    }
+}
+
+.button_place_portfolio:hover {
+    background-color: #ce0c30;
+    box-shadow: 0px 2px 0px #b91130;
+}
