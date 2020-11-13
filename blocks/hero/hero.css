@@ -8,16 +8,17 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 1000px) {
+    .hero {
+        padding: 109px 40px 71px;
+    }
+}
+
 @media screen and (max-width: 790px) {
     .hero {
         flex-direction: column;
         align-items: center;
-        padding: 109px 0 71px;
-    }
-}
-
-@media screen and (max-width: 590px) {
-    .hero {
-        padding: 42px 0 71px;
+        padding: 109px 40px 71px;
+        margin: 0 auto;
     }
 }
