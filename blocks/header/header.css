@@ -8,8 +8,14 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1000px) {
+    .header {
+        padding: 41px 40px 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .header {
-        padding: 35px 0 0;
+        padding: 35px 28px 0;
     }
 }
