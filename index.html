@@ -60,13 +60,22 @@
 
     <!-- BLOCK HERO -->
     <section class="hero">
-        <div class="hero__wrapper">
-            <p class="hero__subtitle">Фрилансер</p>
-            <h1 class="hero__title">Петр Федоров</h1>
-            <p class="hero__paragraph">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-            <a href="#form" class="button button_place_hero">Бесплатная консультация</a>
-        </div>
-        <img src="./blocks/hero/__img/hero-avatar.png" alt="Фото героя" class="hero__img">
+      <div class="hero__wrapper">
+        <p class="hero__subtitle">Фрилансер</p>
+        <h1 class="hero__title">Петр Федоров</h1>
+        <p class="hero__paragraph">
+          Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+          заказать дизайн и верстку небольшого сайта или интернет-магазина
+        </p>
+        <a href="#form" class="button button_place_hero"
+          >Бесплатная консультация</a
+        >
+      </div>
+      <img
+        src="./blocks/hero/__img/hero-avatar.png"
+        alt="Фото героя"
+        class="hero__img"
+      />
     </section>
 
     <!-- BLOCK FEATURES -->
@@ -151,47 +160,58 @@
     </section>
 
     <!-- BLOCK PORTFOLIO -->
-        <section class="portfolio">
-        <h2 class="section-title">Выполненные проекты</h2>
-        <div class="portfolio__list">
-            <div class="portfolio__item">
-                <img src="./blocks/portfolio/__image/portfolio1.png" alt="Превью первой работы" class="portfolio__image">
-                <div class="portfolio__wrapper">
-                    <p class="portfolio__title">The curious corner of chamarel</p>
-                    <button class="button button_place_portfolio">Посмотреть</button>
-                </div>
-
-            </div>
-            <div class="portfolio__item">
-                <img src="./blocks/portfolio/__image/portfolio2.png" alt="Превью второй работы" class="portfolio__image">
-                <div class="portfolio__wrapper">
-                    <p class="portfolio__title">Gymkhana club golf course</p>
-                    <button class="button button_place_portfolio">Посмотреть</button>
-                </div>
-
-            </div>
-            <div class="portfolio__item">
-                <img src="./blocks/portfolio/__image/portfolio3.png" alt="Превью третий работы" class="portfolio__image">
-                <div class="portfolio__wrapper">
-                    <p class="portfolio__title">Tamarind falls hiking trip - full day</p>
-                    <button class="button button_place_portfolio">Посмотреть</button>
-                </div>
-
-            </div>
+    <section class="portfolio">
+      <h2 class="section-title">Выполненные проекты</h2>
+      <div class="portfolio__list">
+        <div class="portfolio__item">
+          <img
+            src="./blocks/portfolio/__image/portfolio1.png"
+            alt="Превью первой работы"
+            class="portfolio__image"
+          />
+          <div class="portfolio__wrapper">
+            <p class="portfolio__title">The curious corner of chamarel</p>
+            <button class="button button_place_portfolio">Посмотреть</button>
+          </div>
         </div>
+        <div class="portfolio__item">
+          <img
+            src="./blocks/portfolio/__image/portfolio2.png"
+            alt="Превью второй работы"
+            class="portfolio__image"
+          />
+          <div class="portfolio__wrapper">
+            <p class="portfolio__title">Gymkhana club golf course</p>
+            <button class="button button_place_portfolio">Посмотреть</button>
+          </div>
+        </div>
+        <div class="portfolio__item">
+          <img
+            src="./blocks/portfolio/__image/portfolio3.png"
+            alt="Превью третий работы"
+            class="portfolio__image"
+          />
+          <div class="portfolio__wrapper">
+            <p class="portfolio__title">
+              Tamarind falls hiking trip - full day
+            </p>
+            <button class="button button_place_portfolio">Посмотреть</button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- BLOCK GALLERY -->
     <section class="gallery" aria-label="галерея фото">
       <div class="gallery-block">
-        <div>
+        <div class="a">
           <img
             src="./image/gallery01.jpg"
             alt="декор стен."
             class="gallery-block__img"
           />
         </div>
-        <div>
+        <div class="a">
           <img
             src="./image/gallery02.jpg"
             alt="модный интерьер."
@@ -271,62 +291,107 @@
 
     <!-- BLOCK FOOTER -->
     <footer class="footer">
-        <h2 class="section-title section-title_position_center">Свяжитесь со мной</h2>
-        <div class="footer__wrapper">
-            <form action="#" class="form" id="form">
-                <h3 class="form__title form__input_type_full">Можете просто оставить заявку, я позвоню вам сегодня</h3>
-                <h3 class="form__title form__input_type_collapsed">Можете оставить заявку, я позвоню вам сегодня</h3>
-                <input placeholder="Ваше имя" type="tel" class="form__input form__input_type_name">
-                <input placeholder="Ваш телефон" type="text" class="form__input form__input_type_tel">
-                <input class=" button button_place_form" type="submit" value="Бесплатная консультация">
-            </form>
-            <address class="contacts">
-                <div class="contacts__item">
-                    <p class="contacts__head">Телефон</p>
-                    <a href="tel:+7-999-123-45-67" class="contacts__link">+7 999 123 45 67</a>
-                </div>
-                <div class="contacts__item">
-                    <p class="contacts__head">Почта</p>
-                    <a href="mailto:ivanov@mail.ru" class="contacts__link">ivanov@mail.ru</a>
-                </div>
-                <div class="contacts__item">
-                    <p class="contacts__head">Соцсети</p>
-                    <ul class="contacts__list">
-                        <li class="contacts__list-tiem"><a href="t.me/ivanov" class="contacts__link">t.me/ivanov</a></li>
-                        <li class="contacts__list-tiem"><a href="vk.me/ivanov" class="contacts__link">vk.me/ivanov</a></li>
-                        <li class="contacts__list-tiem"><a href="fb.me/ivanov" class="contacts__link">fb.me/ivanov</a></li>
-                    </ul>
-                </div>             
-                <div class="contacts__item social">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./blocks/social/__logo/github.svg" alt="Логотип Github" class="social__logo">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./blocks/social/__logo/twitter.svg" alt="Логотип Twitter" class="social__logo">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./blocks/social/__logo/instagram.svg" alt="Логотип Instagram" class="social__logo">
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <img src="./blocks/social/__logo/facebook.svg" alt="Логотип Facebook" class="social__logo">
-                            </a>
-                        </li>
-                  </ul>
-                </div>
-                <div class="contacts__policy">
-                    <a class="contacts__policy-link" href="#" >Политика&nbsp;конфиденциальности</a>
-                </div>
-                
-            </address>
-        </div>
+      <h2 class="section-title section-title_position_center">
+        Свяжитесь со мной
+      </h2>
+      <div class="footer__wrapper">
+        <form action="#" class="form" id="form">
+          <h3 class="form__title form__input_type_full">
+            Можете просто оставить заявку, я позвоню вам сегодня
+          </h3>
+          <h3 class="form__title form__input_type_collapsed">
+            Можете оставить заявку, я позвоню вам сегодня
+          </h3>
+          <input
+            placeholder="Ваше имя"
+            type="tel"
+            class="form__input form__input_type_name"
+          />
+          <input
+            placeholder="Ваш телефон"
+            type="text"
+            class="form__input form__input_type_tel"
+          />
+          <input
+            class="button button_place_form"
+            type="submit"
+            value="Бесплатная консультация"
+          />
+        </form>
+        <address class="contacts">
+          <div class="contacts__item">
+            <p class="contacts__head">Телефон</p>
+            <a href="tel:+7-999-123-45-67" class="contacts__link"
+              >+7 999 123 45 67</a
+            >
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__head">Почта</p>
+            <a href="mailto:ivanov@mail.ru" class="contacts__link"
+              >ivanov@mail.ru</a
+            >
+          </div>
+          <div class="contacts__item">
+            <p class="contacts__head">Соцсети</p>
+            <ul class="contacts__list">
+              <li class="contacts__list-tiem">
+                <a href="t.me/ivanov" class="contacts__link">t.me/ivanov</a>
+              </li>
+              <li class="contacts__list-tiem">
+                <a href="vk.me/ivanov" class="contacts__link">vk.me/ivanov</a>
+              </li>
+              <li class="contacts__list-tiem">
+                <a href="fb.me/ivanov" class="contacts__link">fb.me/ivanov</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts__item social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="./blocks/social/__logo/github.svg"
+                    alt="Логотип Github"
+                    class="social__logo"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="./blocks/social/__logo/twitter.svg"
+                    alt="Логотип Twitter"
+                    class="social__logo"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="./blocks/social/__logo/instagram.svg"
+                    alt="Логотип Instagram"
+                    class="social__logo"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="./blocks/social/__logo/facebook.svg"
+                    alt="Логотип Facebook"
+                    class="social__logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts__policy">
+            <a class="contacts__policy-link" href="#"
+              >Политика&nbsp;конфиденциальности</a
+            >
+          </div>
+        </address>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

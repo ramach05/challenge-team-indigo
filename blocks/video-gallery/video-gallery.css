@@ -6,4 +6,20 @@
   width: 100%;
   min-width: 126px;
   height: 100%;
+  position: relative;
+}
+
+.video-gallery::before {
+  content: "";
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 51%,
+    rgb(39, 48, 57) 99%
+  );
+  position: absolute;
+  border-radius: 6px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }

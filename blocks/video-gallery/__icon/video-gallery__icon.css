@@ -3,4 +3,6 @@
   width: 13.31px;
   height: 13.31px;
   margin: 9.34px 9.34px 0 0;
+  position: relative;
+  z-index: 5;
 }
