@@ -1,0 +1,18 @@
+.features__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+  margin: 64px 0 80px;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .features__title {
+    font-size: 19px;
+    line-height: 22.27px;
+    margin: 61px 0 59px;
+}

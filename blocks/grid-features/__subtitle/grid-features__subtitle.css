@@ -1,0 +1,17 @@
+.grid-features__subtitle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .grid-features__subtitle {
+    font-size: 14px;
+  }
+}

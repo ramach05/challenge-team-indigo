@@ -1,9 +1,12 @@
 .page {
-    font-family: "Roboto", Arial, Helvetica, sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    background-color: #1B2944;
-    padding: 0 168px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b2944;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1280px) {
@@ -16,4 +19,29 @@
     .page {
         padding: 0 27px;
     }
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  background-color: #cecece;
+}
+::-webkit-scrollbar-track {
+  background-color: #cecece;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #cecece;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #ffbb01;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #cecece;
+}
+::-webkit-resizer {
+  background-color: #cecece;
 }
