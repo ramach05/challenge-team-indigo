@@ -19,3 +19,8 @@
         font-size: 0.625rem;
     }
 }
+
+.button_place_portfolio:hover {
+    background-color: #ce0c30;
+    box-shadow: 0px 2px 0px #b91130;
+}
