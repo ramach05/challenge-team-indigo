@@ -1,0 +1,18 @@
+.video-gallery__time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.32px;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #ffffff;
+
+  margin: 8px 5.34px 0 0;
+  padding: 0;
+}
