@@ -4,12 +4,6 @@
   align-items: flex-start;
   /* position: relative; */
   width: 100%;
+  min-width: 126px;
   height: 100%;
-  overflow: hidden;
-}
-
-.gallery-block:first-of-type .video-gallery {
-  background-image: url(../../image/gallery06.jpg);
-  background-size: cover;
-  background-position: center;
 }

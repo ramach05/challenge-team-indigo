@@ -67,4 +67,5 @@
 @import url("../blocks/video-gallery/video-gallery.css");
 @import url("../blocks/video-gallery/__time/video-gallery__time.css");
 @import url("../blocks/video-gallery/__icon/video-gallery__icon.css");
-
+@import url("../blocks/video-gallery/_video-01/video-gallery_video-01.css");
+@import url("../blocks/video-gallery/_video-02/video-gallery_video-02.css");
