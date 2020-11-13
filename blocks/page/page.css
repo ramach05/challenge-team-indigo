@@ -7,6 +7,7 @@
   align-items: center;
   background-color: #1b2944;
   margin: 0 auto;
+
 }
 
 @media screen and (max-width: 1280px) {
@@ -44,4 +45,7 @@
 }
 ::-webkit-resizer {
   background-color: #cecece;
+
 }
+
+

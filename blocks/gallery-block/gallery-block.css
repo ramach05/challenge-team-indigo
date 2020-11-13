@@ -2,19 +2,18 @@
   margin: 96px auto;
   padding: 0;
   max-width: 944px;
-  width: 83.125vw;
+  width: 83.125;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(minmax(0, 224px));
+  grid-template-rows: repeat(3, minmax(0, 224px));
   /* grid-template-rows: repeat(3, 224px); */
   gap: 16px;
   position: relative;
 }
 
-
-
 @media screen and (max-width: 767px) {
   .gallery-block {
+    margin: 35px auto 49px;
     display: flex;
     max-width: 83.4375vw;
     overflow-x: scroll;
