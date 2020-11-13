@@ -1,3 +1,7 @@
+* {
+  border: 1px red solid;
+}
+
 .page {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   text-rendering: optimizeLegibility;
@@ -12,6 +16,27 @@
   z-index: -99; */
 }
 
-* {
-  border: 1px red solid;
+::-webkit-scrollbar {
+  width: 3px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  background-color: #cecece;
+}
+::-webkit-scrollbar-track {
+  background-color: #cecece;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: #cecece;
+}
+::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-color: #ffbb01;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-corner {
+  background-color: #cecece;
+}
+::-webkit-resizer {
+  background-color: #cecece;
 }

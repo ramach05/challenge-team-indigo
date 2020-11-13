@@ -1,4 +1,4 @@
-.gallery__img {
+.gallery-block__img {
   width: 100%;
   max-width: 224px;
   height: 224px;
@@ -8,14 +8,14 @@
   object-fit: cover;
 }
 
-/* .gallery__img::before {
+/* .gallery-block__img::before {
   content: "";
   display: block;
   margin-bottom: 100%;
 } */
 
 @media screen and (max-width: 767px) {
-  .gallery__img {
+  .gallery-block__img {
     max-width: 126px;
     height: 126px;
   }

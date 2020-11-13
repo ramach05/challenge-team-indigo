@@ -55,12 +55,16 @@
 @import url("../blocks/features/__title/features__title.css");
 @import url("../blocks/grid-features/grid-features.css");
 @import url("../blocks/grid-features/__item/grid-features__item.css");
-@import url("../blocks/grid-features/__item/_img/grid-features__item_img.css");
-@import url("../blocks/grid-features/__item/title/grid-features__item_title.css");
-@import url("../blocks/grid-features/__item/_subtitle/grid-features__item_subtitle.css");
+@import url("../blocks/grid-features/__img/grid-features__img.css");
+@import url("../blocks/grid-features/__title/grid-features__title.css");
+@import url("../blocks/grid-features/__subtitle/grid-features__subtitle.css");
 
 /* Gallery */
 
 @import url("../blocks/gallery/gallery.css");
 @import url("../blocks/gallery-block/gallery-block.css");
-@import url("../blocks/gallery/__img/gallery__img.css");
+@import url("../blocks/gallery-block/__img/gallery-block__img.css");
+@import url("../blocks/video-gallery/video-gallery.css");
+@import url("../blocks/video-gallery/__time/video-gallery__time.css");
+@import url("../blocks/video-gallery/__icon/video-gallery__icon.css");
+

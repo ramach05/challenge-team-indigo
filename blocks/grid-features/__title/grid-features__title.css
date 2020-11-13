@@ -1,4 +1,4 @@
-.grid-features__item_title {
+.grid-features__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .grid-features__item_title {
+  .grid-features__title {
     margin: 0 0 6px;
     font-size: 18px;
   }
