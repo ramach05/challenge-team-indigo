@@ -1,48 +1,40 @@
 .page {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #1b2944;
-  margin: 0 auto;
-}
-
-/* полоса прокрутки (скроллбар) */
-
-::-webkit-scrollbar {
-  border-radius: 6px;
-  width: 4px;
-  /* ширина для вертикального скролла */
-  height: 4px;
-  /* высота для горизонтального скролла */
-  background-color: #cecece;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1b2944;
+    margin: 0 auto;
 }
 
 /* ползунок скроллбара */
 
 /* ::-webkit-scrollbar-thumb {
   background-color: #ffbb01;
-  border-radius: 6px; */
+  border-radius: 6px;
 
-  /* -webkit-transition: background-color 1s;
+  -webkit-transition: background-color 1s;
   -moz-transition: background-color 1s;
   -o-transition: background-color 1s;
   -ms-transition: background-color 1s;
-  transition: background-color 1s; */
-/* } */
+  transition: background-color 1s;
+}  */
 
-.page::-webkit-scrollbar {
-  width: 14px;
-}
-.page::-webkit-scrollbar-thumb {
+/* .page::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+} */
+
+/* .page::-webkit-scrollbar-thumb {
   background-clip: content-box;
   border: 4px solid transparent;
-  border-radius: 7px;
+  border-radius: 6px;
   box-shadow: inset 0 0 0 10px;
-}
-.page {
+} */
+
+/* .page {
   overflow: auto;
   color: #ce1c3e;
   transition: color 0.3s;
@@ -50,4 +42,4 @@
 
 .page:hover {
   color: #ffbb01;
-}
+} */
