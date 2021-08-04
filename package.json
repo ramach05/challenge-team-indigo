@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/ramach05/20-challenge-team-indigo/issues"
   },
-  "homepage": "https://ramach05.github.io/20-challenge-team-indigo/",
+  "homepage": "https://ramach05.github.io/challenge-team-indigo/",
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
