@@ -1,7 +1,7 @@
 {
   "name": "20-challenge-team-indigo",
   "version": "1.0.0",
-  "description": "Adaptive website. Compiled using webpack and uploaded to gh-pages server.",
+  "description": "Adaptive website 'Freelancer'. Compiled using webpack and uploaded to gh-pages server.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode production",
