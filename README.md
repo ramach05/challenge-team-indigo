@@ -1,3 +1,6 @@
+> **Archived.** Learning project from 2021, kept as a starting point.
+> Team layout of a static Freelancer site from a Figma mockup (PixelPerfect), BEM, webpack, gh-pages. Original README below.
+
 # **Freelancer**
 Командная работа по верстке сайта.
 
